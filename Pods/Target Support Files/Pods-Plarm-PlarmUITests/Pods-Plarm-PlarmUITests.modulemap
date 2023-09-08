@@ -1,0 +1,6 @@
+framework module Pods_Plarm_PlarmUITests {
+  umbrella header "Pods-Plarm-PlarmUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

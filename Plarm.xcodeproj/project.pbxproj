@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3C4AB7762AAAC29D00D481A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4AB7752AAAC29D00D481A2 /* MainViewController.swift */; };
+		6C9AFB5188FFC5EBD2E79141 /* Pods_Plarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF717D6230E109FD3B6B8776 /* Pods_Plarm.framework */; };
+		BCB1C0AAD9790E6D17687229 /* Pods_PlarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466792E2772EBF5FA97F0E5F /* Pods_PlarmTests.framework */; };
+		C0FBB9FC8C2D24B3B54EA651 /* Pods_Plarm_PlarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA3FE9F025CEB0EB206F2CE /* Pods_Plarm_PlarmUITests.framework */; };
 		CFD59C742A2FE68700CE92F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD59C732A2FE68700CE92F9 /* AppDelegate.swift */; };
 		CFD59C762A2FE68700CE92F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD59C752A2FE68700CE92F9 /* SceneDelegate.swift */; };
 		CFD59C7D2A2FE68900CE92F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD59C7C2A2FE68900CE92F9 /* Assets.xcassets */; };
@@ -35,7 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F75AD9A9FD2839C2AA7C21D /* Pods-Plarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plarm.release.xcconfig"; path = "Target Support Files/Pods-Plarm/Pods-Plarm.release.xcconfig"; sourceTree = "<group>"; };
 		3C4AB7752AAAC29D00D481A2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		466792E2772EBF5FA97F0E5F /* Pods_PlarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlarmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F8E03DA506752BCDD64FBA /* Pods-Plarm-PlarmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plarm-PlarmUITests.release.xcconfig"; path = "Target Support Files/Pods-Plarm-PlarmUITests/Pods-Plarm-PlarmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6DB52C16D10FED0EF58550B3 /* Pods-PlarmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlarmTests.release.xcconfig"; path = "Target Support Files/Pods-PlarmTests/Pods-PlarmTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF9C509EBDF6D945D6C82B1D /* Pods-Plarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plarm.debug.xcconfig"; path = "Target Support Files/Pods-Plarm/Pods-Plarm.debug.xcconfig"; sourceTree = "<group>"; };
 		CFD59C702A2FE68700CE92F9 /* Plarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD59C732A2FE68700CE92F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFD59C752A2FE68700CE92F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		CFD59C902A2FE68900CE92F9 /* PlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD59C942A2FE68900CE92F9 /* PlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlarmUITests.swift; sourceTree = "<group>"; };
 		CFD59C962A2FE68900CE92F9 /* PlarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E75C7F4A7E4312755AEFC306 /* Pods-PlarmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlarmTests.debug.xcconfig"; path = "Target Support Files/Pods-PlarmTests/Pods-PlarmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF717D6230E109FD3B6B8776 /* Pods_Plarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F835DA8E310B593133625F39 /* Pods-Plarm-PlarmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plarm-PlarmUITests.debug.xcconfig"; path = "Target Support Files/Pods-Plarm-PlarmUITests/Pods-Plarm-PlarmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBA3FE9F025CEB0EB206F2CE /* Pods_Plarm_PlarmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plarm_PlarmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C9AFB5188FFC5EBD2E79141 /* Pods_Plarm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB1C0AAD9790E6D17687229 /* Pods_PlarmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0FBB9FC8C2D24B3B54EA651 /* Pods_Plarm_PlarmUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +115,16 @@
 			path = Presentation;
 			sourceTree = "<group>";
 		};
+		76EDAF050B8B02B61BCEF567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF717D6230E109FD3B6B8776 /* Pods_Plarm.framework */,
+				FBA3FE9F025CEB0EB206F2CE /* Pods_Plarm_PlarmUITests.framework */,
+				466792E2772EBF5FA97F0E5F /* Pods_PlarmTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CFD59C672A2FE68700CE92F9 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +132,8 @@
 				CFD59C892A2FE68900CE92F9 /* PlarmTests */,
 				CFD59C932A2FE68900CE92F9 /* PlarmUITests */,
 				CFD59C712A2FE68700CE92F9 /* Products */,
+				D0CC170A550B131A30EF74FB /* Pods */,
+				76EDAF050B8B02B61BCEF567 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +175,20 @@
 			path = PlarmUITests;
 			sourceTree = "<group>";
 		};
+		D0CC170A550B131A30EF74FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF9C509EBDF6D945D6C82B1D /* Pods-Plarm.debug.xcconfig */,
+				2F75AD9A9FD2839C2AA7C21D /* Pods-Plarm.release.xcconfig */,
+				F835DA8E310B593133625F39 /* Pods-Plarm-PlarmUITests.debug.xcconfig */,
+				49F8E03DA506752BCDD64FBA /* Pods-Plarm-PlarmUITests.release.xcconfig */,
+				E75C7F4A7E4312755AEFC306 /* Pods-PlarmTests.debug.xcconfig */,
+				6DB52C16D10FED0EF58550B3 /* Pods-PlarmTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFD59C9A2A2FE68900CE92F9 /* Build configuration list for PBXNativeTarget "Plarm" */;
 			buildPhases = (
+				CF874604E6DF0F5C2FCB4092 /* [CP] Check Pods Manifest.lock */,
 				CFD59C6C2A2FE68700CE92F9 /* Sources */,
 				CFD59C6D2A2FE68700CE92F9 /* Frameworks */,
 				CFD59C6E2A2FE68700CE92F9 /* Resources */,
+				108ED454A8DBA81EEF62B739 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFD59C9D2A2FE68900CE92F9 /* Build configuration list for PBXNativeTarget "PlarmTests" */;
 			buildPhases = (
+				ABC195EAC2806DA0EF03B296 /* [CP] Check Pods Manifest.lock */,
 				CFD59C822A2FE68900CE92F9 /* Sources */,
 				CFD59C832A2FE68900CE92F9 /* Frameworks */,
 				CFD59C842A2FE68900CE92F9 /* Resources */,
@@ -190,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFD59CA02A2FE68900CE92F9 /* Build configuration list for PBXNativeTarget "PlarmUITests" */;
 			buildPhases = (
+				B6959D312FDB44975E8A04B4 /* [CP] Check Pods Manifest.lock */,
 				CFD59C8C2A2FE68900CE92F9 /* Sources */,
 				CFD59C8D2A2FE68900CE92F9 /* Frameworks */,
 				CFD59C8E2A2FE68900CE92F9 /* Resources */,
+				882176400DC7CD17ACD0973A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,6 +318,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		108ED454A8DBA81EEF62B739 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plarm/Pods-Plarm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plarm/Pods-Plarm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plarm/Pods-Plarm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		882176400DC7CD17ACD0973A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plarm-PlarmUITests/Pods-Plarm-PlarmUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plarm-PlarmUITests/Pods-Plarm-PlarmUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plarm-PlarmUITests/Pods-Plarm-PlarmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC195EAC2806DA0EF03B296 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlarmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6959D312FDB44975E8A04B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Plarm-PlarmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF874604E6DF0F5C2FCB4092 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Plarm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CFD59C6C2A2FE68700CE92F9 /* Sources */ = {
@@ -444,6 +593,7 @@
 		};
 		CFD59C9B2A2FE68900CE92F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9C509EBDF6D945D6C82B1D /* Pods-Plarm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +621,7 @@
 		};
 		CFD59C9C2A2FE68900CE92F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F75AD9A9FD2839C2AA7C21D /* Pods-Plarm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -498,6 +649,7 @@
 		};
 		CFD59C9E2A2FE68900CE92F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75C7F4A7E4312755AEFC306 /* Pods-PlarmTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +670,7 @@
 		};
 		CFD59C9F2A2FE68900CE92F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB52C16D10FED0EF58550B3 /* Pods-PlarmTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +691,7 @@
 		};
 		CFD59CA12A2FE68900CE92F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F835DA8E310B593133625F39 /* Pods-Plarm-PlarmUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +710,7 @@
 		};
 		CFD59CA22A2FE68900CE92F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F8E03DA506752BCDD64FBA /* Pods-Plarm-PlarmUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
