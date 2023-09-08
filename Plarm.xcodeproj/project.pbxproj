@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3C4AB7762AAAC29D00D481A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4AB7752AAAC29D00D481A2 /* MainViewController.swift */; };
 		3C4AB77A2AAADF9000D481A2 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4AB7792AAADF9000D481A2 /* AlarmTableViewCell.swift */; };
+		3C4AB77C2AAAE5B800D481A2 /* CreateAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4AB77B2AAAE5B800D481A2 /* CreateAlarmViewController.swift */; };
 		6C9AFB5188FFC5EBD2E79141 /* Pods_Plarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF717D6230E109FD3B6B8776 /* Pods_Plarm.framework */; };
 		BCB1C0AAD9790E6D17687229 /* Pods_PlarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466792E2772EBF5FA97F0E5F /* Pods_PlarmTests.framework */; };
 		C0FBB9FC8C2D24B3B54EA651 /* Pods_Plarm_PlarmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA3FE9F025CEB0EB206F2CE /* Pods_Plarm_PlarmUITests.framework */; };
@@ -42,6 +43,7 @@
 		2F75AD9A9FD2839C2AA7C21D /* Pods-Plarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plarm.release.xcconfig"; path = "Target Support Files/Pods-Plarm/Pods-Plarm.release.xcconfig"; sourceTree = "<group>"; };
 		3C4AB7752AAAC29D00D481A2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3C4AB7792AAADF9000D481A2 /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		3C4AB77B2AAAE5B800D481A2 /* CreateAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAlarmViewController.swift; sourceTree = "<group>"; };
 		466792E2772EBF5FA97F0E5F /* Pods_PlarmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlarmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F8E03DA506752BCDD64FBA /* Pods-Plarm-PlarmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plarm-PlarmUITests.release.xcconfig"; path = "Target Support Files/Pods-Plarm-PlarmUITests/Pods-Plarm-PlarmUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6DB52C16D10FED0EF58550B3 /* Pods-PlarmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlarmTests.release.xcconfig"; path = "Target Support Files/Pods-PlarmTests/Pods-PlarmTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				3C4AB7752AAAC29D00D481A2 /* MainViewController.swift */,
 				3C4AB7792AAADF9000D481A2 /* AlarmTableViewCell.swift */,
+				3C4AB77B2AAAE5B800D481A2 /* CreateAlarmViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				CFD59C762A2FE68700CE92F9 /* SceneDelegate.swift in Sources */,
 				3C4AB7762AAAC29D00D481A2 /* MainViewController.swift in Sources */,
 				3C4AB77A2AAADF9000D481A2 /* AlarmTableViewCell.swift in Sources */,
+				3C4AB77C2AAAE5B800D481A2 /* CreateAlarmViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

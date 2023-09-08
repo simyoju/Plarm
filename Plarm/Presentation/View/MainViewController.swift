@@ -31,7 +31,9 @@ class MainViewController: UIViewController {
     
     @objc
     func addBarButtonTapped() {
-        print("### tapped")
+        let nextVC = CreateAlarmViewController()
+        let naviVC = UINavigationController(rootViewController: nextVC)
+        self.present(naviVC, animated: true)
     }
 }
 
