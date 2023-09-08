@@ -10,8 +10,12 @@ import SnapKit
 import Then
 
 class MainViewController: UIViewController {
-    private let mainTableView = UITableView().then {
+    lazy var mainTableView = UITableView().then {
+        $0.delegate = self
+        $0.dataSource = self
+        
         $0.backgroundColor = .clear
+        $0.register(AlarmTableViewCell.self, forCellReuseIdentifier: "AlarmTableViewCell")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -63,5 +67,16 @@ extension MainViewController {
                 .inset(16)
             $0.bottom.equalToSuperview()
         }
+    }
+}
+
+extension MainViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "AlarmTableViewCell", for: indexPath) as! AlarmTableViewCell
+        return cell
     }
 }
