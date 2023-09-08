@@ -110,9 +110,17 @@
 		3C4AB7742AAAC28A00D481A2 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				3C4AB7752AAAC29D00D481A2 /* MainViewController.swift */,
+				3C4AB7782AAADF4F00D481A2 /* View */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3C4AB7782AAADF4F00D481A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C4AB7752AAAC29D00D481A2 /* MainViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		76EDAF050B8B02B61BCEF567 /* Frameworks */ = {
@@ -185,7 +193,6 @@
 				E75C7F4A7E4312755AEFC306 /* Pods-PlarmTests.debug.xcconfig */,
 				6DB52C16D10FED0EF58550B3 /* Pods-PlarmTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
