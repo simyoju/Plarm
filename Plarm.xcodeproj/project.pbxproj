@@ -88,7 +88,6 @@
 			children = (
 				CFD59C7C2A2FE68900CE92F9 /* Assets.xcassets */,
 				CFD59C7E2A2FE68900CE92F9 /* LaunchScreen.storyboard */,
-				CFD59C812A2FE68900CE92F9 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -124,6 +123,7 @@
 		CFD59C722A2FE68700CE92F9 /* Plarm */ = {
 			isa = PBXGroup;
 			children = (
+				CFD59C812A2FE68900CE92F9 /* Info.plist */,
 				3C4AB7742AAAC28A00D481A2 /* Presentation */,
 				3C4AB7722AAAC26B00D481A2 /* App */,
 				3C4AB7732AAAC28100D481A2 /* Resources */,
